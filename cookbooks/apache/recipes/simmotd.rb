@@ -1,5 +1,5 @@
-hostnam = node['hostname']
+hostname = node['hostname']
 file 'message' do
-	path '/home/gopi/motd'
+	path '/root/motd'
 	content "Hostname is this: #{hostname}"
 end
